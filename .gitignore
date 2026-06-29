@@ -2,8 +2,8 @@
 venv/
 
 # Datos (no van a Git)
-data/raw/
-data/processed/
+data/
+!data/**/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints/

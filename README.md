@@ -2,6 +2,8 @@
 
 Análisis exploratorio y modelo predictivo sobre **153 años de fútbol internacional** (1872–2026), usando un dataset de 49,000+ partidos que cubre Copas del Mundo, Copa América, Eurocopa, eliminatorias y amistosos.
 
+**Qué demuestra este proyecto:** flujo completo de ciencia de datos — limpieza de series temporales irregulares, feature engineering con rolling windows con `shift(1)` para evitar data leakage, evaluación cronológica (no aleatoria) de un clasificador multiclase desbalanceado, y comunicación honesta de incertidumbre en un dominio intrínsecamente ruidoso.
+
 ## Estructura del proyecto
 
 ```
